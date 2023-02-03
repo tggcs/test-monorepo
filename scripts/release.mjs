@@ -124,8 +124,6 @@ async function main() {
     await publishPackage(pkg, targetVersion, runIfNotDry);
   }
 
-  return;
-
   // push to Git?
   step("\nPushing to Git?...");
   await runIfNotDry("git", ["tag", `v${targetVersion}`]);
