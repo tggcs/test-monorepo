@@ -1,6 +1,6 @@
 {
   "name": "tgtest-ui",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "tgtest-utils": "1.0.12"
+    "tgtest-utils": "1.0.13"
   }
 }
