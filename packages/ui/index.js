@@ -1,4 +1,4 @@
-const utils = require('@ai/utils')
+const utils = require('tgtest-utils')
 
 const getButton = () => {
   return `<button>${utils.getDayInfo()}</button>` 

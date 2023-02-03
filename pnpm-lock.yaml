@@ -4,14 +4,14 @@ importers:
 
   .:
     specifiers:
-      '@ai/sheet': workspace:*
       chalk: ^5.2.0
       enquirer: ^2.3.6
       execa: ^6.1.0
       minimist: ^1.2.7
       semver: ^7.3.8
+      tgtest-sheet: 1.0.11
     dependencies:
-      '@ai/sheet': link:packages/sheet
+      tgtest-sheet: link:packages/sheet
     devDependencies:
       chalk: 5.2.0
       enquirer: 2.3.6
@@ -21,17 +21,17 @@ importers:
 
   packages/sheet:
     specifiers:
-      '@ai/ui': 1.0.7
-      '@ai/utils': 1.0.7
+      tgtest-ui: 1.0.11
+      tgtest-utils: 1.0.11
     dependencies:
-      '@ai/ui': link:../ui
-      '@ai/utils': link:../utils
+      tgtest-ui: link:../ui
+      tgtest-utils: link:../utils
 
   packages/ui:
     specifiers:
-      '@ai/utils': 1.0.7
+      tgtest-utils: 1.0.11
     dependencies:
-      '@ai/utils': link:../utils
+      tgtest-utils: link:../utils
 
   packages/utils:
     specifiers:

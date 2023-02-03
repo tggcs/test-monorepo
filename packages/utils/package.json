@@ -1,6 +1,6 @@
 {
-  "name": "@ai/utils",
-  "version": "1.0.10",
+  "name": "tgtest-utils",
+  "version": "1.0.12",
   "description": "",
   "main": "index.js",
   "scripts": {

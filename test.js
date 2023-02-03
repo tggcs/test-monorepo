@@ -1,4 +1,4 @@
-const sheet = require('@ai/sheet')
+const sheet = require('tgtest-sheet')
 
 const html = sheet.render()
 
