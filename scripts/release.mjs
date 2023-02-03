@@ -110,13 +110,14 @@ async function main() {
   } else {
     console.log('No changes to commit.')
   }
-  return
-
+  
   // publish packages
   step('\nPublishing packages...')
   for (const pkg of packages) {
     await publishPackage(pkg, targetVersion, runIfNotDry)
   }
+
+  return
 
   // push to Git?
   step('\nPushing to Git?...')
