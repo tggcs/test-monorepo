@@ -1,6 +1,6 @@
 {
-  "name": "ui",
-  "version": "1.0.0",
+  "name": "@ai/utils",
+  "version": "1.0.9",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "utils": "workspace:*"
+    "dayjs": "^1.11.7"
   }
 }

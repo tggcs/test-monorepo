@@ -1,4 +1,4 @@
-const sheet = require('sheet')
+const sheet = require('@ai/sheet')
 
 const html = sheet.render()
 

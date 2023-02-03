@@ -1,15 +1,22 @@
 {
-  "name": "test-monorepo",
-  "version": "1.0.0",
+  "name": "@ai/test-monorepo",
+  "version": "1.0.9",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release": "node scripts/release.mjs"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "sheet": "workspace:*"
+    "@ai/sheet": "1.0.8"
+  },
+  "devDependencies": {
+    "chalk": "^5.2.0",
+    "enquirer": "^2.3.6",
+    "execa": "^6.1.0",
+    "minimist": "^1.2.7",
+    "semver": "^7.3.8"
   }
 }

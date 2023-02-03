@@ -1,5 +1,5 @@
-const ui = require('ui')
-const utils = require('utils')
+const ui = require('@ai/ui')
+const utils = require('@ai/utils')
 
 const render = () => {
   return `${ui.getButton()}.${utils.getHello()}` 
