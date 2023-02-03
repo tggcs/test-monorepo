@@ -1,0 +1,35 @@
+lockfileVersion: 5.4
+
+importers:
+
+  .:
+    specifiers:
+      sheet: workspace:*
+    dependencies:
+      sheet: link:sheet
+
+  sheet:
+    specifiers:
+      ui: workspace:*
+      utils: workspace:*
+    dependencies:
+      ui: link:../ui
+      utils: link:../utils
+
+  ui:
+    specifiers:
+      utils: workspace:*
+    dependencies:
+      utils: link:../utils
+
+  utils:
+    specifiers:
+      dayjs: ^1.11.7
+    dependencies:
+      dayjs: 1.11.7
+
+packages:
+
+  /dayjs/1.11.7:
+    resolution: {integrity: sha512-+Yw9U6YO5TQohxLcIkrXBeY73WP3ejHWVvx8XCk3gxvQDCTEmS48ZrSZCKciI7Bhl/uCMyxYtE9UqRILmFphkQ==}
+    dev: false
